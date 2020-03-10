@@ -106,7 +106,7 @@ int main(int argc, const char** argv) {
             calcOpticalFlowPyrLK(old_gray, recent_gray, old_corners, recent_corners, status, err, Size(15,15), 2, criteria);
             
             for(int i = 0; i < old_corners.size(); i++) {
-                // Select good points
+                // Select good corners
                 if(status[i] == 1) {
                     good_recent_corners.push_back(recent_corners[i]);
                     
