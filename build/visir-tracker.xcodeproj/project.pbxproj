@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DC647EBB39114F47BE07AEC7 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1DCFD05FD1A5472FBDAC5B70 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1A0A504DC43B483AB6955E25 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E5851F6FB6D64664B3C99B66 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1F61C3E18C8649C9906704D8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6F3E03419B554ED895DE3289 /* CMake Rules */,
+			);
+			dependencies = (
+				026D9D771ECE46F2BC76E1EC /* PBXTargetDependency */,
+				8A8D203743874107AB04CBBC /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		46C01B8463CD4CBFAA4E5498 /* /Users/fatine/Documents/GitHub/visir-tracker-02/include/types.h */ = {isa = PBXBuildFile; fileRef = C1AEC1DF64A04153ACAECF45 /* /Users/fatine/Documents/GitHub/visir-tracker-02/include/types.h */; };
+		5D2A61B5EB4A490580021345 /* /Users/fatine/Documents/GitHub/visir-tracker-02/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 704021919AA4483F81E58969 /* /Users/fatine/Documents/GitHub/visir-tracker-02/CMakeLists.txt */; };
+		6A2E6C742B8F4C9590DA782F /* /Users/fatine/Documents/GitHub/visir-tracker-02/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 2FB0FF5426FD4C4BBADDB003 /* /Users/fatine/Documents/GitHub/visir-tracker-02/src/main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0ED7F43FE2D74B5887693688 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		DA8A4D417A534FD6A191FBAE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		25B5276037A64C62853257DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DFA2BA60B1D40BB8AE08CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC647EBB39114F47BE07AEC7;
+			remoteInfo = ZERO_CHECK;
+		};
+		5E8B9BD26FAA4F6CB84EEEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DFA2BA60B1D40BB8AE08CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC647EBB39114F47BE07AEC7;
+			remoteInfo = ZERO_CHECK;
+		};
+		C3BE2501E518414B82EBCA6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DFA2BA60B1D40BB8AE08CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFEE5F75843542A1B35BCBB1;
+			remoteInfo = "visir-tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17E287C1B78D4F85BEC1FD97 /* visir-tracker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "visir-tracker"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB0FF5426FD4C4BBADDB003 /* /Users/fatine/Documents/GitHub/visir-tracker-02/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		704021919AA4483F81E58969 /* /Users/fatine/Documents/GitHub/visir-tracker-02/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7F6E11156BB44FC1A10ECED8 /* /Users/fatine/Documents/GitHub/visir-tracker-02/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C1AEC1DF64A04153ACAECF45 /* /Users/fatine/Documents/GitHub/visir-tracker-02/include/types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types.h; path = include/types.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1E7B5F35CB684B93A1B03E43 /* visir-tracker */ = {
+			isa = PBXGroup;
+			children = (
+				D86F2E7F1744461087749BA6 /* Include */,
+				8AEF78A6532E4E5081A58606 /* Source Files */,
+				704021919AA4483F81E58969 /* /Users/fatine/Documents/GitHub/visir-tracker-02/CMakeLists.txt */,
+			);
+			name = "visir-tracker";
+			sourceTree = "<group>";
+		};
+		3325C110867A41FFA400576D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E287C1B78D4F85BEC1FD97 /* visir-tracker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42432E03CB644450B869498F = {
+			isa = PBXGroup;
+			children = (
+				1E7B5F35CB684B93A1B03E43 /* visir-tracker */,
+				694DA4C43F4949EDABC3DE99 /* ALL_BUILD */,
+				3325C110867A41FFA400576D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		694DA4C43F4949EDABC3DE99 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				BBE1DC09310A44FA82FC3046 /* CMake Rules */,
+				7F6E11156BB44FC1A10ECED8 /* /Users/fatine/Documents/GitHub/visir-tracker-02/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		8AEF78A6532E4E5081A58606 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FB0FF5426FD4C4BBADDB003 /* /Users/fatine/Documents/GitHub/visir-tracker-02/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BBE1DC09310A44FA82FC3046 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D86F2E7F1744461087749BA6 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				C1AEC1DF64A04153ACAECF45 /* /Users/fatine/Documents/GitHub/visir-tracker-02/include/types.h */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFEE5F75843542A1B35BCBB1 /* visir-tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7495509D70064AB7B5A3A176 /* Build configuration list for PBXNativeTarget "visir-tracker" */;
+			buildPhases = (
+				51E945E51972419BA95E5B74 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32F360FBD6B04D52AAC7F994 /* PBXTargetDependency */,
+			);
+			name = "visir-tracker";
+			productName = "visir-tracker";
+			productReference = 17E287C1B78D4F85BEC1FD97 /* visir-tracker */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DFA2BA60B1D40BB8AE08CC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = DAFD3BD5039E43469656D374 /* Build configuration list for PBXProject "visir-tracker" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				DA8A4D417A534FD6A191FBAE /* Debug */,
+				0ED7F43FE2D74B5887693688 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 42432E03CB644450B869498F;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				E5851F6FB6D64664B3C99B66 /* ALL_BUILD */,
+				DC647EBB39114F47BE07AEC7 /* ZERO_CHECK */,
+				AFEE5F75843542A1B35BCBB1 /* visir-tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A0A504DC43B483AB6955E25 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/fatine/Documents/GitHub/visir-tracker-02/build -f /Users/fatine/Documents/GitHub/visir-tracker-02/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		6F3E03419B554ED895DE3289 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/fatine/Documents/GitHub/visir-tracker-02/build -f /Users/fatine/Documents/GitHub/visir-tracker-02/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		836C6159126A445E873D8D1E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A2C79076F2B44D2C80DC9C06 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51E945E51972419BA95E5B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2E6C742B8F4C9590DA782F /* /Users/fatine/Documents/GitHub/visir-tracker-02/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		026D9D771ECE46F2BC76E1EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC647EBB39114F47BE07AEC7 /* ZERO_CHECK */;
+			targetProxy = 25B5276037A64C62853257DF /* PBXContainerItemProxy */;
+		};
+		32F360FBD6B04D52AAC7F994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC647EBB39114F47BE07AEC7 /* ZERO_CHECK */;
+			targetProxy = 5E8B9BD26FAA4F6CB84EEEAF /* PBXContainerItemProxy */;
+		};
+		8A8D203743874107AB04CBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFEE5F75843542A1B35BCBB1 /* visir-tracker */;
+			targetProxy = C3BE2501E518414B82EBCA6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A8FA5A7AB0A4B5AB4C3E8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fatine/Documents/GitHub/visir-tracker-02/build/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/fatine/Documents/GitHub/visir-tracker-02/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_objdetect.4.2.0.dylib /usr/local/lib/libopencv_highgui.4.2.0.dylib /usr/local/lib/libopencv_videoio.4.2.0.dylib /usr/local/lib/libopencv_video.4.2.0.dylib /usr/local/lib/libopencv_imgcodecs.4.2.0.dylib /usr/local/lib/libopencv_calib3d.4.2.0.dylib /usr/local/lib/libopencv_features2d.4.2.0.dylib /usr/local/lib/libopencv_imgproc.4.2.0.dylib /usr/local/lib/libopencv_flann.4.2.0.dylib /usr/local/lib/libopencv_core.4.2.0.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "visir-tracker";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fatine/Documents/GitHub/visir-tracker-02/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.2.0_1/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7F33104207AF49AF92C4809A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fatine/Documents/GitHub/visir-tracker-02/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8837210893E14716A1B6D366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/fatine/Documents/GitHub/visir-tracker-02/build/build";
+			};
+			name = Debug;
+		};
+		9F2EDE51EE604B909FCB9DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/fatine/Documents/GitHub/visir-tracker-02/build/build";
+			};
+			name = Release;
+		};
+		AB9AE87CCD724C06BD39729A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fatine/Documents/GitHub/visir-tracker-02/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D03F4915094A42D2BF346606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fatine/Documents/GitHub/visir-tracker-02/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D7AEA0BEC231439A87E3BFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/fatine/Documents/GitHub/visir-tracker-02/build/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_CRT_SECURE_NO_WARNINGS,_SCL_SECURE_NO_WARNINGS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/fatine/Documents/GitHub/visir-tracker-02/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_objdetect.4.2.0.dylib /usr/local/lib/libopencv_highgui.4.2.0.dylib /usr/local/lib/libopencv_videoio.4.2.0.dylib /usr/local/lib/libopencv_video.4.2.0.dylib /usr/local/lib/libopencv_imgcodecs.4.2.0.dylib /usr/local/lib/libopencv_calib3d.4.2.0.dylib /usr/local/lib/libopencv_features2d.4.2.0.dylib /usr/local/lib/libopencv_imgproc.4.2.0.dylib /usr/local/lib/libopencv_flann.4.2.0.dylib /usr/local/lib/libopencv_core.4.2.0.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "visir-tracker";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fatine/Documents/GitHub/visir-tracker-02/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.2.0_1/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		FC404B98C0554D96AE6860EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/fatine/Documents/GitHub/visir-tracker-02/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DCFD05FD1A5472FBDAC5B70 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9AE87CCD724C06BD39729A /* Debug */,
+				7F33104207AF49AF92C4809A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1F61C3E18C8649C9906704D8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03F4915094A42D2BF346606 /* Debug */,
+				FC404B98C0554D96AE6860EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7495509D70064AB7B5A3A176 /* Build configuration list for PBXNativeTarget "visir-tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AEA0BEC231439A87E3BFB6 /* Debug */,
+				2A8FA5A7AB0A4B5AB4C3E8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DAFD3BD5039E43469656D374 /* Build configuration list for PBXProject "visir-tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8837210893E14716A1B6D366 /* Debug */,
+				9F2EDE51EE604B909FCB9DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DFA2BA60B1D40BB8AE08CC0 /* Project object */;
+}
